@@ -1,0 +1,97 @@
+.open-web {
+    width: 100%;
+    height: 300px;
+    /* background-color: rgb(138, 248, 243); */
+
+    padding: 10px;
+    border: 5px dashed pink;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    position: relative;
+    top:10px;
+}
+
+.open-web .open_1 {
+    width: 60%;
+    position: absolute;
+    left:5%;
+    padding-left: 5%;
+
+    background-color: antiquewhite;
+}
+
+.open-web .open_2 head-web-image {
+    width: 20%;
+    height: 270px;
+    padding: 10px;
+    border: 3px dashed pink;
+    box-sizing: border-box;
+
+    background-origin: border-box;
+
+    position: absolute;
+    right: 5%;
+    
+    background-image: url("https://wx1.sinaimg.cn/mw690/003BvVCTgy1guohzlyeo7j635s23whdv02.jpg"), url("error_picture.png"), linear-gradient(135deg, rgba(252, 17, 17, 0.5), rgba(243, 82, 189, 0.5));
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.open-web .open_3 .head_button {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 162, 255);
+    border: solid black;
+    box-sizing: border-box;
+}
+
+.open-web .open_3 .head_button:hover{
+    background-color: rgb(255, 116, 162);
+}
+
+.open-web .open_3 .head_button:active{
+    background-color: rgb(136, 255, 0);
+}
+
+.open-web .open_3 .Album {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 162, 255);
+    border: solid black;
+    box-sizing: border-box;
+}
+
+.vote_rate {
+    background-color: aqua;
+    position: relative;
+}
+
+.vote_rate .rate_0 {
+    width: 20%;
+    padding: 5px;
+    border: solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input_vote_rate {
+    /* margin: auto; */
+}
