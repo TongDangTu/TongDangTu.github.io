@@ -13,7 +13,7 @@
     <a href="./"><button>Trở về thư mục gốc của dự án</button></a>
     <br><br>
 
-    <form action="tutd_211765_03.php" method="POST" enctype="multipart/form-data">
+    <form action="index_action.php" method="POST" enctype="multipart/form-data">
         </font></center>
         <table align="center">
             <tr>

@@ -154,6 +154,6 @@
         writeTxtFile();
     }
 
-    header("Location: tutd_211765_02.php");
+    header("index.php");
     exit;
 ?>
